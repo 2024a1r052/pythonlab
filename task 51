@@ -1,0 +1,8 @@
+ques 8  write a python program to count how many times a particular element appears in a list.
+lst = list(map(int, input("Enter list elements: ").split()))
+
+element = int(input("Enter the element to count: "))
+
+count = lst.count(element)
+
+print("The element appears", count, "times.")'''
