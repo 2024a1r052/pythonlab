@@ -1,0 +1,17 @@
+'''create a class and object student details
+problem-create a student class to score a student name and roll number create an object and display the details using instance method'''
+class Student:
+    def __init__(self, name, roll_no):
+        self.name = name
+        self.roll_no = roll_no
+
+    def display(self):
+        print("Student Name:", self.name)
+        print("Roll Number:", self.roll_no)
+
+
+# Creating an object
+s1 = Student("Rahul", 101)
+
+# Displaying student details
+s1.display()
